@@ -2,6 +2,7 @@ import pandas as pd
 import pickle
 import streamlit as st
 from PIL import Image
+from xgboost import XGBClassifier
 
 
 html_temp = """
