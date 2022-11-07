@@ -81,4 +81,4 @@ if st.button("Predict"):
         prediction = "leave"
     else:
         prediction = "stay"
-    st.success(f"Your employee will** {prediction}.** ")
+    st.success(f"Your employee will **{prediction}.** ")
