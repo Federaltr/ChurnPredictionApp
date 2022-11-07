@@ -78,7 +78,7 @@ st.info("**Check the features you selected from the table above. If correct, pre
 if st.button("Predict"):
     prediction = final_model.predict(df)
     if prediction == 1:
-        prediction = "leave"
+        prediction = "Leave"
     else:
-        prediction = "stay"
+        prediction = "Stay"
     st.success(f"Your employee will ***{prediction}.***")
